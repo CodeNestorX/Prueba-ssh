@@ -1,0 +1,106 @@
+/* Fuente para todo el documento */
+body {
+    font-family: Arial, sans-serif; /* Tipografía */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Color de fondo general */
+}
+
+/* Estilo para el encabezado principal */
+h1 {
+    color: #0056b3;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilo para los subtítulos */
+h2 {
+    color: #0056b3;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+/* Estilo para los párrafos */
+p {
+    background-color: #ffffff; /* Color de fondo para los párrafos */
+    padding: 10px;
+    border-radius: 5px; /* Bordes redondeados */
+    margin: 10px auto;
+    max-width: 800px;
+}
+
+/* Estilo para listas */
+ul, ol {
+    margin: 10px auto;
+    max-width: 800px;
+}
+
+/* Estilo para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Estilo para la imagen */
+img {
+    float: right; /* Muestra la imagen a la derecha del texto */
+    margin-left: 20px;
+    border: 2px solid #ddd; /* Borde para la imagen */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Estilo para la navegación */
+.nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 15px;
+    font-size: 16px; /* Tamaño de fuente predeterminado */
+}
+
+.nav a:hover {
+    color: #f4f4f4;
+    text-decoration: none; /* Elimina el subrayado al pasar el ratón */
+    font-size: 18px; /* Tamaño de fuente al pasar el ratón */
+}
+
+/* Estilo para negritas y cursivas */
+b, strong {
+    font-weight: bold;
+}
+
+i, em {
+    font-style: italic;
+}

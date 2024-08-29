@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi formulario</title>
+    <link rel="stylesheet" href="Style-Formulario.css">
+</head>
+<body>
+    <form method="get" action="">
+        <h1>Contacto</h1>
+
+        <!-- Nombre -->
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br>
+
+        <!-- Correo -->
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo" required>
+        <br>
+
+        <!-- Género -->
+        <label>Género:</label>
+        <input type="radio" id="genero_masculino" name="genero" value="masculino">
+        <label for="genero_masculino">Masculino</label>
+        <input type="radio" id="genero_femenino" name="genero" value="femenino">
+        <label for="genero_femenino">Femenino</label>
+        <br>
+
+        <!-- Contraseña -->
+        <label for="contraseña">Contraseña:</label>
+        <input type="password" id="contraseña" name="contraseña" required>
+        <br>
+
+        <!-- Comentario -->
+        <label for="comentario">Comentario:</label>
+        <textarea id="comentario" name="comentario" rows="4"></textarea>
+        <br>
+
+        <!-- Ciudad -->
+        <label for="ciudad">Ciudad:</label>
+        <select id="ciudad" name="ciudad">
+            <option value="Guadalajara">Guadalajara</option>
+            <option value="Zapopan">Zapopan</option>
+            <option value="Tonalá">Tonalá</option>
+            <option value="Otra">Otra</option>
+        </select>
+        <br>
+
+        <!-- Me interesa contratarte -->
+        <label for="interes">Me interesa contratarte:</label>
+        <input type="checkbox" id="interes" name="interes">
+        <br>
+
+        <!-- Botón para enviar -->
+        <button type="submit">Enviar</button>
+        <br>
+        <!-- Enlace para regresar -->
+        <a href="Archivo1-Mi_Persona.html" class="regresar">Regresar al inicio</a>
+    </form>
+</body>
+</html>
